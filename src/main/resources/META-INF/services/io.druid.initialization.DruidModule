@@ -1,0 +1,2 @@
+io.druid.storage.oss.OssStorageDruidModule
+io.druid.firehose.oss.OssFirehoseDruidModule

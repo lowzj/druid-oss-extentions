@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.druid.extensions</groupId>
+    <artifactId>druid-oss-extensions</artifactId>
+    <name>druid-oss-extensions</name>
+    <description>druid-oss-extensions</description>
+
+    <parent>
+        <groupId>io.druid</groupId>
+        <artifactId>druid</artifactId>
+        <version>0.8.3-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
+
+    <!--<properties>-->
+        <!--<druid.version>0.3.15</druid.version>-->
+        <!--<oss.version>2.0.6</oss.version>-->
+        <!--<lombok.version>1.14.6</lombok.version>-->
+        <!--<junit.version>4.11</junit.version>-->
+    <!--</properties>-->
+
+    <dependencies>
+        <dependency>
+            <groupId>io.druid</groupId>
+            <artifactId>druid-api</artifactId>
+            <!--<version>${druid.version}</version>-->
+        </dependency>
+        <dependency>
+            <groupId>com.aliyun.oss</groupId>
+            <artifactId>aliyun-sdk-oss</artifactId>
+            <!--<version>${oss.version}</version>-->
+        </dependency>
+
+        <!--unit test-->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <!--<version>${junit.version}</version>-->
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+
+
+</project>
