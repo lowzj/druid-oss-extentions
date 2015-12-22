@@ -54,7 +54,15 @@ git checkout 0.8.2
 > <argument>io.druid.extensions:druid-oss-extensions</argument>
 > ```
 
+# Build
+
+```
+mvn clean package -Dskiptests
+```
+
 ## Configuration
+
+change to the druid home directory, modify config file: config/_common/common.runtime.properties
 
 ```sh
 druid.storage.type=oss                                      # always 'oss'
